@@ -1,0 +1,163 @@
+/* global styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Order section start */
+
+.order_summary {
+	background: url(./images/pattern-background-desktop.svg) no-repeat;
+	background-size: contain;
+	background-color: #e0e8ff;
+	background-position: 81% 0%;
+	padding: 114px 0px;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.main_card {
+	box-shadow: 0px 24px 30px -8px rgba(48, 42, 225, 0.3);
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.card_imgage {}
+
+.card_imgage img {
+	width: 26rem;
+	height: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.card_content {
+	padding: 2.5rem;
+	background-color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -4px;
+	border: none;
+}
+
+.card_title {}
+
+.card_buttons {}
+
+.card_title h2 {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #202847;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card_title h6 {
+	width: 21rem;
+	margin: 0 auto;
+	font-size: 1rem;
+	color: #858392;
+	line-height: 1.5rem;
+	font-family: sans-serif;
+	margin-top: 1.4rem;
+}
+
+.card_price {
+	display: flex;
+	background-color: #f8f9fe;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 8px;
+	margin-top: 1.4rem;
+	padding: 0.9rem 0rem;
+	font-family: Verdana, sans-serif;
+}
+
+.card_plan {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card_plan_left_icon {}
+
+.card_plan_left_icon img {
+	width: 33px;
+	margin-right: 12px;
+}
+
+.card_plan_right_text {
+	text-align: left;
+}
+
+.card_plan_right_text h5 {
+	font-size: 1rem;
+	margin-bottom: 4px;
+	color: #202847;
+	font-weight: 900;
+}
+
+.card_plan_right_text h4 {
+	color: #858392;
+}
+
+.card_plan_change a {
+	color: #1e1fcd;
+	font-weight: 900;
+	transition: 0.4s;
+}
+
+.card_plan_change a:hover {
+	color: #766cf1;
+	text-decoration: none;
+}
+
+.card_buttons .payment_button {
+	color: #fff;
+	display: block;
+	background: #382ae1;
+	text-decoration: none;
+	padding: 1rem 0rem;
+	border-radius: 9px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 900;
+	font-size: 0.9rem;
+	margin-top: 1.5rem;
+	box-shadow: 1px 8px 15px -4px rgba(48, 42, 225, 0.5);
+	transition: 0.4s;
+}
+
+.card_buttons .payment_button:hover {
+	background-color: #766cf1;
+	color: #fff;
+}
+
+.card_buttons .cancel_button {
+	margin-top: 1.6rem !important;
+	display: block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 0.9rem;
+	color: #78787c;
+	transition: 0.4s;
+}
+
+.card_buttons .cancel_button:hover {
+	color: #111;
+}
